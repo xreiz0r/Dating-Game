@@ -74,7 +74,7 @@ map<char,int> /*controlcdotmoc/3a0608e5*/ example;
 	example.insert(std::make_pair('Q',17));
 	example.insert(std::make_pair('R',18));
 	example.insert(std::make_pair('S',19));
-	controlc.com/3a0608e5
+	//controlcdoot/3a0608e5
 
 	example.insert(std::make_pair('T',20));
 	
