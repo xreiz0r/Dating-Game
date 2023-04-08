@@ -23,7 +23,7 @@ if (getline(cin, name)){}
 
 
 //use single quotes instead of double quotes for char search.
-map<char,int> /*controlcdotmoc/3a0608e5*/ example;
+map<char,int> /*controlcdotmoc/0f8769b7*/ example;
 //lower-case
 	example.insert(std::make_pair('a',1));
 	example.insert(std::make_pair('b',2));
