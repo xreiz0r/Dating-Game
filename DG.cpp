@@ -18,8 +18,8 @@ cout << "Enter name: ";
 
 if (getline(cin, name)){}
 //cin>>name;
-for (auto ll : name)
-	{if isdigit(ll){cout << "Error:Name contains digit(s)\n ";}}
+for (int ll = 0; ll<name.size() ; ++ll )
+	{if (isdigit(name[ll])){cout << "Error:Name contains digit(s)\n "; return 0;}}
 
 
 
