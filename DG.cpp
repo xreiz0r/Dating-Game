@@ -14,11 +14,12 @@ string name;
 double sum=0.0;
 double mean  = 0.0;
 int count = 0;
-cout << "Enter one name: ";
+cout << "Enter name: ";
 
 if (getline(cin, name)){}
 //cin>>name;
-
+for (auto ll : name)
+	{if isdigit(ll){cout << "Error:Name contains digit(s)\n ";}}
 
 
 
@@ -116,8 +117,8 @@ sqretotal+= pow(seal->second - mean,2);
 
 //float stddev = sqrt(sqretotal/count);	 //comment this line out if the calculation is for a Sample
 	
-int sample = count-1;                 	 // comment this line out if the calculation is for a Population
-float stddev = sqrt(sqretotal/sample);	// comment this line out if the calculation is for a Population
+int sample = count-1;                 	 // comment this line out if the 
+float stddev = sqrt(sqretotal/sample);	//  calculation is for a Population
 
 	
 	
